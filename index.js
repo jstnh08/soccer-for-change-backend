@@ -7,7 +7,7 @@ import Stripe from "stripe";
 
 const app = express();
 const stripe = new Stripe(
-  "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"
+  "stripekey"
 );
 const PORT = 3000;
 
